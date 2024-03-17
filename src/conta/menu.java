@@ -206,6 +206,8 @@ public class menu {
 						valor = leia.nextFloat();
 					}while(valor <= 0);
 					
+					contas.sacar(numero, valor);
+					
 					keyPress();	
                    	 	break;
 				case 7:
